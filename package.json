@@ -4,7 +4,7 @@
   "description": "A Vue.js project",
   "author": "Ian Polatka <ianpolatka@gmail.com>",
   "private": true,
-  "homepage": "https://ianpolatka.github.io/vuejs",
+  "homepage": "https://ianpolatka.github.io/work/",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
