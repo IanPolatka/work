@@ -4,16 +4,19 @@
   "description": "A Vue.js project",
   "author": "Ian Polatka <ianpolatka@gmail.com>",
   "private": true,
+  "homepage": "https://ianpolatka.github.io/vuejs",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "axios": "^0.17.0",
     "moment": "^2.19.1",
     "normalize.css": "^7.0.0",
     "vue": "^2.5.2",
+    "vue-gh-pages": "^1.6.2",
     "vue-moment": "^2.1.0",
     "vue-router": "^3.0.1"
   },
